@@ -26,3 +26,8 @@ php -S 127.0.0.1:4242 -docroot=public
 ```
 http://localhost:4242/public/checkout.html
 ```
+トラブルシューティング  
+・各種stripe keyを正確に入力しているか。  
+・create.phpの場所をpublic内に移動してみる。  
+・create.phpのautoload.phpのパスは正しいか。  
+・php動かしてページを動かした時のコマンドログを確認する。  

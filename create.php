@@ -1,6 +1,6 @@
 <?php
 
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 
 // This is your real test secret API key.
 \Stripe\Stripe::setApiKey('シークレットキーを設定');
