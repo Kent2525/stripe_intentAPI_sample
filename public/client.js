@@ -1,5 +1,5 @@
 // A reference to Stripe.js initialized with your real test publishable API key.
-var stripe = Stripe("パブリックキーを設定");
+var stripe = Stripe("pk_test_51IYldnExpHp5N2d89RYRzzfoKQ92NZX9Oyn5mC3432bDNy1WEC0cIoihQfOhjxWraiJQTxVbdVNS7vZ0rKv790Vp00mlAve80O");
 
 // The items the customer wants to buy
 var purchase = {
