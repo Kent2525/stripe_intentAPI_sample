@@ -1,4 +1,4 @@
-# stripe Payment Intents API の公式デモページ構築
+# Stripe Payment Intents API の公式デモページ構築
 stripeは3種類のAPIが用意されている。  
 1. Stripe checkout  
 2. Charges API  
