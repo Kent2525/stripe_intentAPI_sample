@@ -1,9 +1,9 @@
 <?php
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 // This is your real test secret API key.
-\Stripe\Stripe::setApiKey('sk_test_51IYldnExpHp5N2d88bRErnJDNRxrBcv0X4vdqDeTLXfSTRZoJPl66SW4dx4BxShcu88upyBOjy1nqaBi7ZVsebLv00zNaoFjRO');
+\Stripe\Stripe::setApiKey('シークレットキーを設定');
 
 
 function calculateOrderAmount(array $items): int {
